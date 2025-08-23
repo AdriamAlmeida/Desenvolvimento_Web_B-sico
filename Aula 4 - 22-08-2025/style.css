@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/*Seletor de elementos */
+body {
+    background-color: rgb(0, 99, 17);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Seletor de id (#) */
+#Teste {
+    border-style: solid;
+    border-color: black;
+}
+
+/*Seletor de classe */
+.bonitinho{
+    background-color: rgba(255, 99, 71, 0.5);
+}
+
+li{
+    color: rgb(78, 6, 6);
+    background-color: beige;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+li a{ 
+    text-decoration: none;
+    color: rebeccapurple;
+}
+
+li.active{
+    background-color: yellow;
+}
+    
+.space{
+    padding: 0.9rem;
+}
