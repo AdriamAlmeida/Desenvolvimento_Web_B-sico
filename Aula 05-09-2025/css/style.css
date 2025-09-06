@@ -1,0 +1,45 @@
+/* Seletor de elementos*/
+body{
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Seletor de classe*/
+.cabecalho{
+    margin-top: 2rem;
+    padding: 0.6rem;
+    display: flex;
+    flex-direction: row;
+    background-color: cadetblue;
+}
+
+/* Seletor de id */
+#nome{
+    font-size: 3rem;
+}
+
+.photo{
+    border-radius: 100%;
+    position: absolute;
+    right: 100px;
+}
+
+.nome-sub{
+    margin: 0rem 2rem 0rem 3rem;
+    text-align: left;
+
+}
+
+.container{
+    display: flex;
+}
+
+.menu{
+    width: 30%;
+    background-color: rgb(200, 200, 200);
+}
+
+.conteudo{
+    width: 70%;
+    padding: 2rem;
+}
