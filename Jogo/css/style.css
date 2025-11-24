@@ -1,0 +1,37 @@
+body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); /* Fundo suave com tema de cozinha */
+            min-height: 100vh;
+        }
+        .container {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .card-panel {
+            background-color: #ffffff;
+            border-radius: 1.5rem; /* Cantos arredondados */
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            padding: 30px;
+            height: 100%; /* Garante que ambos os painéis tenham a mesma altura */
+        }
+        .form-check-label {
+            cursor: pointer;
+            user-select: none;
+        }
+        .ingredient-list {
+            max-height: 400px;
+            overflow-y: auto;
+            padding-right: 10px;
+        }
+
+.rodape a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: black;
+}
+
+.logo {
+    width: 20px;
+}

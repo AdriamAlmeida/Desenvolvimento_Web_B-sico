@@ -1,0 +1,14 @@
+body{
+    background-color: lawngreen;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.tabela-simples{
+    background-color: aliceblue;
+    padding: 5%;
+}
+
+td:hover{
+    background-color: aqua;
+    color: red;
+}

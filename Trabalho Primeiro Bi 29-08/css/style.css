@@ -1,0 +1,12 @@
+/* Adriam de Landrea de Almeida, Turma 109B, 29/08/2025, Sem consulta*/
+
+body{
+    background-color: aliceblue;
+    color: black;
+
+}
+
+td:hover{
+    background-color: aqua;
+    color: red;
+}
